@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "sinatra"
-gem "activerecord"
-gem "sinatra-activerecord"
+gem "sinatra", ">= 2.0.0"
+gem "activerecord", ">= 6.1.7.1"
+gem "sinatra-activerecord", ">= 2.0.12"
 gem "rake"
 gem "pg"
 gem 'puma', '~> 3.0'
